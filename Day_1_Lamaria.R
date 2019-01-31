@@ -29,7 +29,8 @@ lam_kom <- lam %>%            #in the laminaria data set
 
 lam_Sea_point <- lam %>% 
   select(site, blade_length) %>% 
-  filter(site == "Sea Point")
+  filter(site == "Buffels, Sea Point")
+  
 
 
 lam %>% 
@@ -69,7 +70,8 @@ lam %>%                       #shows the number of stipe mass
 #visualisation
 ggplot(data = lam, aes(x = stipe_mass, y = stipe_length)) +
   geom_point(shape = 21, colour = "green", fill = "purple") +
-  labs(x = "Stipe mass (kg)", y = "Stipe length (cm)")
+  labs(x = "Stipe mass (kg)", y = "Stipe length (cm)") +
+  geom_smooth(method = "lm")
 
 ggplot(lam, aes(x = blade_weight, y = total_length, colour = site)) +
   geom_point()+

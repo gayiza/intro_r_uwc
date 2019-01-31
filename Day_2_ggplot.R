@@ -81,3 +81,4 @@ urine <- boot::urine
  ggplot(data = urine, aes(x = osmo, y = ph)) +
    geom_point(aes(colour = as.factor(r)))    #as."factor" tells r to read as a factor
  
+ dd
