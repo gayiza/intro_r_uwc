@@ -14,7 +14,7 @@ lam %>%                                   #select data set
   group_by(site) %>%                      #group by simmilarity (site)
   summarize(avrg_bl = mean(blade_length), 
   min_bl = min(blade_length),
-  max_bl = max(blade_length))
+  max_bl = max(blade_length)) # Forgetting a pipe functiong??
   n = (n)
 3.#What was the heaviest stipe measured in each site? Return the columns `site`, `region`, and `stipe_len
 lam %>% 
@@ -23,5 +23,8 @@ lam %>%
   select(site, region, stipe_length)
 
 
-  
+# [A.A]
+# Script runs
+  # Fix minor errors
+  # Good commenting throughout the script
   

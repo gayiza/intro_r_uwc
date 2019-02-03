@@ -81,3 +81,7 @@ try2 <-  SACTN %>%
              max_temp = max(temp, na.rm = TRUE)
    )
         
+ # [A.A]
+ # Try new things, explore the code and its functions
+ # Comments throughout the documeny, niely done
+ # Shows a clear understanding of the code.

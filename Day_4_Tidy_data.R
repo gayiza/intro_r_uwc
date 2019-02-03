@@ -29,4 +29,7 @@ SACTN4b_tidy <- SACTN4b %>%
 #Joining
 SACTN4_tidy <- left_join(SACTN4a_tidy, SACTN4b_tidy)       #left join function detects similar variables and joins the data
 
+#[A.A]
+# Neat script, script runs
+# Good commens thoughput the document
 

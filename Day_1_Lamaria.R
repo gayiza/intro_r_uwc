@@ -78,6 +78,9 @@ ggplot(lam, aes(x = blade_weight, y = total_length, colour = site)) +
   geom_smooth(method = "lm")
 
 
-
+# [A.A]
+# Code runs nicely
+# Neat script
+# Good commenting throughout the document
 
 

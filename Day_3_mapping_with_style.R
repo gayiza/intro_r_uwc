@@ -48,3 +48,6 @@ sa_4 <- sa_3 +
                     xmin = 20.9, xmax = 26.9,
                     ymin = -30, ymax = -24)
 sa_4
+
+# [A.A]
+# Neat script, Add more self made comments throughput the document

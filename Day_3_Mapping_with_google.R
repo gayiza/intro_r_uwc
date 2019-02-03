@@ -29,3 +29,8 @@ cp_2 <- cp_1 +
             hjust = 1.15, vjust = 0.5, # Adjust vertical and horizontal
             size = 3, colour = "white") # Adjust appearance
 cp_2
+
+#[A.A]
+# Nice neat script
+# Well managed
+# Add more comments throughout the script, this will improve you understanding

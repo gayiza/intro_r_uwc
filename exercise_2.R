@@ -97,7 +97,11 @@ ggplot(data = lam, aes(x = digits , y = thallus_mass )) +
   geom_smooth(method = "lm") +
   ggtitle("Correlation between Thallus mass and digits")
 
-
+# [A.A]
+# Sjoh, nicely done
+# First student to try different things with this exercise
+# Well done!!
+# Good commenting and neat script
 
 
 

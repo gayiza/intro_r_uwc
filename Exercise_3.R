@@ -18,4 +18,7 @@ save(laminaria, file = "Intro_R_UWC/data/laminaria1.RData")  #saving laminaria a
 #Scaling functions: pull together palettes, bounding functions and transformations to provide a complete pathway from raw data to perceptual propertiesst be computed over multiple groups or multiple panels. 
 #Mutable ranges: in many graphics pathways, scale ranges can not be computed in a single pass, but mu
 
-     
+
+#[A.A]
+# Good discription
+# NIce

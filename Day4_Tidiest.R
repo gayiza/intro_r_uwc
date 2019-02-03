@@ -49,4 +49,8 @@ SACTN %>%
   summarise(mean_temp = mean(temp, na.rm = TRUE),     #sunnarise needs us to give a name for the mean/sd data
             sd_temp = sd(temp, na.rm = TRUE))
 
-
+# [A.A]
+# Comments throughut the script
+# Neat script
+# Exploring of the functions will only improve your knowledge and maks
+# Try new things
